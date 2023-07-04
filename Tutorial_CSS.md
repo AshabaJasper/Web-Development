@@ -140,3 +140,100 @@ The position property specifies the type of positioning method used for an eleme
 - `fixed`: The element is positioned relative to the browser window.
 - `absolute`: The element is positioned absolutely to its first positioned parent.
 - `sticky`: The element is positioned based on the user's scroll position.
+
+## CSS Backgrounds
+
+CSS allows you to set the background color and image of an element.
+
+- **Background Color**: Use the `background-color` property to specify the background color of an element.
+
+  ```css
+  body {
+    background-color: lightblue;
+  }
+  ```
+- **Background Image**: Use the `background-image` property to specify a background image for an element.
+
+  ```css
+  body {
+    background-image: url("image.jpg");
+  }
+  ```
+
+## CSS Text and Fonts
+
+CSS properties allow you to change the style and layout of text.
+
+- **Font Family**: The `font-family` property specifies the font for an element.
+
+  ```css
+  p {
+    font-family: "Times New Roman", Times, serif;
+  }
+  ```
+- **Font Size**: The `font-size` property sets the size of the text.
+
+  ```css
+  p {
+    font-size: 16px;
+  }
+  ```
+- **Text Color**: The `color` property specifies the color of the text.
+
+  ```css
+  p {
+    color: red;
+  }
+  ```
+- **Text Alignment**: The `text-align` property is used to set the horizontal alignment of a text.
+
+  ```css
+  p {
+    text-align: center;
+  }
+  ```
+
+## CSS Pseudo-classes
+
+A pseudo-class is used to define a special state of an element. For example, it can be used to:
+
+- Style an element when a user mouses over it
+- Style visited and unvisited links differently
+- Style an element when it gets focus
+
+  ```css
+  a:hover {
+    color: orange;
+  }
+  ```
+
+## CSS Pseudo-elements
+
+A pseudo-element is used to style specified parts of an element. For example, it can be used to:
+
+- Style the first letter, or line, of an element
+- Insert content before, or after, the content of an element
+
+  ```css
+  p::first-letter {
+    font-size: 200%;
+    color: blue;
+  }
+  ```
+
+## CSS Transitions
+
+CSS transitions allows you to change property values smoothly, over a given duration. For example:
+
+    ```css
+    div {
+      width: 100px;
+      transition: width 2s;
+    }
+
+    div:hover {
+      width: 200px;
+    }
+    ```
+
+This is still not all of CSS. There's still a lot more to learn about CSS, such as animations, flexbox, grid, etc. Continue exploring!
