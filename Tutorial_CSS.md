@@ -237,3 +237,110 @@ CSS transitions allows you to change property values smoothly, over a given dura
     ```
 
 This is still not all of CSS. There's still a lot more to learn about CSS, such as animations, flexbox, grid, etc. Continue exploring!
+
+
+## CSS Flexbox
+
+Flexbox is a one-dimensional layout method for laying out items in rows or columns. Items flex to fill additional space and shrink to fit into smaller spaces.
+
+    .container {
+      display: flex;
+    }
+
+    .item {
+      flex: 1;  /* Grow and shrink to fill space */
+    }
+
+## CSS Grid
+
+CSS Grid Layout is a two-dimensional layout system, with rows and columns. It's perfect for designing interfaces.
+
+    .container {
+      display: grid;
+      grid-template-columns: auto auto auto;  /* Three equal columns */
+    }
+
+## CSS Transforms
+
+The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements.
+
+    img {
+      transform: rotate(20deg);
+    }
+
+## CSS Transitions
+
+Transitions enable you to define the transition between two states of an element. Different states may be defined using pseudo-classes like :hover or :active, or dynamically set using JavaScript.
+
+    div {
+      transition: all 2s;
+    }
+
+## CSS Animations
+
+Animations are made up of two components, a style describing the CSS animation and a set of keyframes that indicate the start and end states of the animation’s style, as well as possible intermediate waypoints along the way.
+
+    @keyframes my-animation {
+      from {background-color: red;}
+      to {background-color: yellow;}
+    }
+
+    div {
+      animation-name: my-animation;
+      animation-duration: 5s;
+    }
+
+
+## Responsive Design and Media Queries
+
+Responsive design is an approach where your design adapts to different screen sizes. One major aspect of it is "media queries", which allow you to apply different styles for different media types/devices.
+
+    @media screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
+    }
+
+## SASS/SCSS
+
+SASS (Syntactically Awesome Style Sheets) and its superset SCSS (Sassy CSS) are CSS pre-processors. They let you use features that don't exist in CSS yet like variables, nesting, mixins, inheritance, and more.
+
+    $primary-color: blue;
+
+    body {
+      color: $primary-color;
+    }
+
+## CSS Variables (Custom Properties)
+
+CSS Variables, also known as custom properties, allow you to store a value in one place, then reuse it elsewhere in your CSS.
+
+    :root {
+      --primary-color: blue;
+    }
+
+    body {
+      color: var(--primary-color);
+    }
+
+## Pseudo-elements (::before and ::after)
+
+Pseudo-elements are used to style certain parts of a document. For example, you can use the ::before and ::after pseudo-elements to insert content onto a page.
+
+    p::before {
+      content: "Read this -";
+    }
+
+## Advanced CSS Selectors
+
+Advanced CSS selectors like attribute selectors, :nth-child, :nth-of-type, etc., allow for more precise selection of elements to style.
+
+    /* Attribute selector */
+    input[type="text"] {
+      width: 200px;
+    }
+
+    /* nth-of-type selector */
+    p:nth-of-type(2) {
+      color: blue;
+    }
