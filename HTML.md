@@ -6,7 +6,8 @@
 Create a basic HTML document structure, which includes a doctype declaration, html, head, and body tags in an HTML file named index.html.
 
 **Exercise 2: Working with Headings and Paragraphs**
-Inside the body of index.html, use `<h1>` through `<h6>` tags to create headings. Add a couple of paragraphs about yourself using the `<p>` tag.
+Inside the body of index.html, use `<h1>` through `<h6>` tags to create headings. Add a couple of paragraphs about yourself using the `<p>` tags
+
 
 ### Day 4: Links, Images, and Lists
 
